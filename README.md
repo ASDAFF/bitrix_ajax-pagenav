@@ -4,7 +4,7 @@
 Как пользоваться
 ---------
 ```php
-<? if (isset($_GET['ajax']) && $_GET['ajax'] == '1') die; ?>
+<? if (isset($_GET['ajax']) && $_GET['ajax'] == '1') $APPLICATION->RestartBuffer(); ?>
 вызов компонента
 <? if (isset($_GET['ajax']) && $_GET['ajax'] == '1') die; ?>
 ```
